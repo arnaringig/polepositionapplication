@@ -1,0 +1,491 @@
+
+@font-face {
+font-family: New;
+src: url(../../fonts/ostrich-sans-master/OstrichSans-Heavy.otf);
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.appContainer {
+ 
+}
+
+.titletextcont {
+	position: absolute;
+	width: 100%;
+	height: auto;
+	max-height: 300px;
+	z-index: 2;
+}
+
+.titletext {
+
+    position: absolute;
+    font-size: 400%;
+    width: 100%;
+	height: auto;
+    color: white;
+    font-family: New;
+    top: 50px;
+    left: 100px;
+    
+}
+
+.logicContainer {
+
+  display: grid;
+  grid-template-columns: 4fr 10fr;
+ 
+  border-width: 3px;
+
+}
+
+.leftmenu {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+
+}
+
+.headerContainer {
+  max-width: 900px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.middle {
+	background-color: #f5f9fe
+}
+
+.midplace {
+	margin-top: 50px;
+	margin-bottom: 10%;
+}
+
+.rightmost {
+	
+}
+
+.footer {
+	border-top: dashed;
+	border-width: 1px;
+	min-height: 200px;
+	padding: 3%;
+	display: grid;
+	grid-template-columns: 9fr 1fr;
+
+}
+
+.leftmenuitem {
+	text-align: center;
+	max-width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	color: #3b6ba5;
+	margin-top: 50px;
+	max-height: 150px;
+
+}
+
+.leftmenutext {
+	font-size: 30px;
+	margin-bottom: 20px;
+	font-family: New;
+}
+
+.shinput {
+	min-width: 200px;
+}
+
+ul {
+  margin-bottom: 6px;
+}
+
+.bigbutton:hover { 
+    color: #001F3F;
+    transition: color 0.1s ease-in-out;
+}
+
+.orderbutton:hover { 
+    color: #479600;
+    transition: color 0.1s ease-in-out;
+}
+
+/*###### PHANTOMBUS*/
+
+
+
+.phantomcont {
+  padding: 6px;
+  background-color: white;
+  border-style: dashed;
+  border-width: 1px;
+  border-radius: 4px;
+  max-width: 600px;
+  margin-top: 2px;
+  margin-bottom: 6px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 88px;
+}
+
+.formgrid {
+	display: grid;
+	grid-template-columns:2fr 1fr 4fr 1fr 4fr 1fr 4fr 1fr;
+	grid-column-gap: 1em;
+	margin-bottom: 0px;
+
+}
+
+.right {
+  max-width: 50px;
+}
+
+.formgriditem {
+  display: grid;
+  grid-template-columns:1fr;
+  grid-template-rows: 1fr;
+  grid-row-gap: 6px;
+}
+
+
+.texti {
+  min-height: 50%;
+}
+
+.busnumbericon {
+  max-width: 34px;
+  max-height: 34px;
+  border-style: solid;
+  border-color: #0074D9;
+  border-radius: 9px;
+  border-width: 1px;
+
+}
+
+.busnumber {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30px; 
+  font-family: "Courier";
+  font-size: 26px;
+  color: #3b6ba5;
+
+}
+
+.deparr {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30px; 
+  font-family: "Courier";
+  font-size: 14px;
+ 
+}
+
+
+
+.phicon,  {
+  color: grey;
+}
+
+.phantomcont .phantomnumbericon {
+  border-color: grey;
+}
+
+
+.button {
+  color: #3b6ba5;
+  size: 34px;
+	float: right;
+	margin-right: 20px;
+}
+
+.button:hover { 
+    color: #001F3F;
+    transition: color 0.1s ease-in-out;
+}
+
+/*###### TRANSFERS*/
+
+
+.formgridsave {
+	display: grid;
+	grid-template-columns:2fr 1fr 4fr 1fr 4fr 1fr 4fr 1fr;
+	grid-column-gap: 1em;
+	margin-bottom: 0px;
+
+}
+
+.formgriditemsave {
+  font-family: Courier;
+  margin-top: 8px;
+  display: grid;
+  grid-template-columns:1fr;
+  grid-row-gap: 6px;
+}
+
+.contsave {
+  padding: 6px;
+  background-color: #eef5ee;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  max-width: 600px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 88px;
+}
+
+
+
+.right {
+  max-width: 50px;
+}
+
+
+
+
+.texti {
+  min-height: 50%;
+}
+
+.busnumbericonsave {
+  max-width: 34px;
+  max-height: 34px;
+  border-style: solid;
+  border-color: #479600;
+  border-radius: 9px;
+  border-width: 1px;
+
+}
+
+.busnumbersave {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30px; 
+  font-family: "Courier";
+  font-size: 26px;
+  color: #2d6b22;
+}
+
+.deparrsave {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30px; 
+  font-family: "Courier";
+  font-size: 14px;
+  color:#2d6b22; 
+}
+
+.iconsave, .buttonsave .deparrsave .busnumbersave {
+  color: #2d6b22;
+}
+
+.contsave .busnumbericonsave {
+  border-color: #2d6b22;
+}
+
+.buttonsave {
+  color: #2d6b22;
+  size: 34px;
+  float: right;
+  margin-right: 20px;
+}
+
+.savedtext {
+	text-align: left;
+    font-size: 16px;
+}
+
+/* TRANSFEREDIT */
+
+
+
+.cont {
+  padding: 6px;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  max-width: 600px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 88px;
+}
+
+.formgrid {
+	display: grid;
+	grid-template-columns:2fr 1fr 4fr 1fr 4fr 1fr 4fr 1fr;
+	grid-column-gap: 1em;
+	margin-bottom: 0px;
+
+}
+
+.right {
+  max-width: 50px;
+}
+
+.formgriditem {
+  display: grid;
+  grid-template-columns:1fr;
+  grid-template-rows: 1fr;
+  grid-row-gap: 6px;
+}
+
+
+.texti {
+  min-height: 50%;
+}
+
+.busnumbericon {
+  max-width: 34px;
+  max-height: 34px;
+  border-style: solid;
+  border-color: #0074D9;
+  border-radius: 9px;
+  border-width: 1px;
+
+}
+
+.busnumber {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30px; 
+  font-family: "Courier";
+  font-size: 26px;
+  color: #3b6ba5;
+
+}
+
+.deparr {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30px; 
+  font-family: "Courier";
+  font-size: 14px;
+  color: #3b6ba5;
+ 
+}
+
+
+
+.icon, .button .deparr .busnumber {
+  color: #3b6ba5;
+}
+
+.cont .busnumbericon {
+  border-color: #3b6ba5;
+}
+
+
+.button {
+  color: #3b6ba5;
+  size: 34px;
+	float: right;
+	margin-right: 20px;
+}
+
+.button:hover { 
+    color: #001F3F;
+    transition: color 0.1s ease-in-out;
+}
+
+.check {
+
+  float: right;
+  margin-right: 20px;
+}
+
+.check:hover { 
+    color: #001F3F;
+    transition: color 0.1s ease-in-out;
+}
+
+.form-control {
+  background-color : #f5f9fe;
+}
+
+/*
+input, select {
+  max-width: 100px;
+}
+*/
+
+
+
+button, input[type="submit"], input[type="reset"] {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.react-datepicker {
+  font-size: 1em;
+}
+.react-datepicker__header {
+  padding-top: 0.8em;
+}
+.react-datepicker__month {
+  margin: 0.4em 1em;
+}
+.react-datepicker__day-name, .react-datepicker__day {
+  width: 1.9em;
+  line-height: 1.9em;
+  margin: 0.166em;
+}
+.react-datepicker__current-month {
+  font-size: 1em;
+}
+.react-datepicker__navigation {
+  top: 1em;
+  line-height: 1.7em;
+  border: 0.45em solid transparent;
+}
+.react-datepicker__navigation--previous {
+  border-right-color: #ccc;
+  left: 1em;
+}
+.react-datepicker__navigation--next {
+  border-left-color: #ccc;
+  right: 1em;
+}
+
+.react-datepicker-time__header {
+  font-size: 0.944em;
+}
+
+.react-datepicker__navigation--next--with-time {
+  right: 80px;
+}
+
+.react-datepicker__time-list-item {
+  width: 50px;
+}
+
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+/*TRANSFERLIST*/
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+

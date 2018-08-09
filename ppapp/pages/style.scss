@@ -1,0 +1,218 @@
+@import 'normalize.css';
+
+body {
+   background-image: url("../_next/static/bag.jpg");
+   background-size: 100%;
+   background-repeat: no-repeat;
+}
+
+.appcontainer {
+  margin-left: 100px;
+  margin-right: 100px;
+  display: grid;
+  grid-template-rows: 1fr 5fr;	
+}
+
+.message {
+  margin-top: 40px;
+ 
+  
+}
+
+p {
+  font-size: xx-large; 
+}
+
+/**/
+
+ul {
+    list-style-type: none;
+}
+
+.headerlist {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.headeritem {
+    float: left;
+}
+
+.headeritem a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.user {
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: none;
+    float: right;
+}
+
+
+.header {
+	background-color: #333;
+}
+
+/* Change the link color to #111 (black) on hover */
+.headeritem a:hover {
+    background-color: #111;
+}
+
+.headeritem {
+    border-right: 1px solid #bbb;
+}
+
+
+
+
+/**/
+
+.logiccontainer {
+	display: grid;
+	grid-template-columns:3fr 5fr;
+	grid-column-gap: 1em;	
+	margin-top: 4%;
+}
+
+ant-btn-primary:active {
+	color: green;
+}
+
+.leftmenu {
+  
+  max-height: 300px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+.submitbutton {
+	margin-bottom: 10px;
+}
+
+.leftmenuframe {  
+  background-color: white;
+  min-width: 300px;
+  margin-left: 14%;
+  margin-right: 14%;
+  border-radius: 4px;
+
+}
+
+
+.leftmenuitem {
+	text-align: center;
+	max-width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	color: #3b6ba5;
+	margin-top: 10px;
+	max-height: 150px;
+
+}
+
+
+
+
+
+/* Transfers start */
+
+
+.cont {
+  padding: 6px;
+  background-color: white;
+  border-style: solid;
+  border-color: #3b6ba5;;
+  border-width: 1px;
+  border-radius: 4px;
+  max-width: 620px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 80px;
+}
+
+.formgridhigh {
+	display: grid;
+	grid-template-columns:2fr 1fr 4fr 1fr 4fr 1fr 4fr 1fr;
+	grid-column-gap: 1em;
+}
+
+.formgridlow {
+	display: grid;
+	grid-template-columns:2fr 1fr 4fr 1fr 9fr 1fr;
+	grid-column-gap: 1em;
+}
+
+.top {
+    margin-bottom: 6px;
+}
+
+.widthlimit {
+	width: 120px;
+}
+
+.widthlimit2 {
+	width: 306px;
+}
+
+.limitright{
+	padding-right: 9.5px;
+}
+
+.formgriditem {
+  /*width: 120px;*/
+  display: grid;
+  grid-template-columns:1fr;
+  grid-template-rows: 1fr;
+  grid-row-gap: 6px;
+}
+/* Transfers end */
+
+button, input[type="submit"], input[type="reset"] {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.logout {
+	float: right;
+}
+
+
+
+
+
+.icon {
+  color: #3b6ba5;
+}
+
+.notready {
+  color: grey !important;
+}
+
+.ready {
+  color: limegreen;
+}
+
+
